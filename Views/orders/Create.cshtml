@@ -1,0 +1,68 @@
+﻿@model Shop.Models.Book
+
+@{
+    ViewData["Title"] = "Create";
+}
+@{
+    Layout = "~/Views/Shared/_Layout_user.cshtml";
+}
+
+<h1>Shopping Cart</h1>
+<hr />
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.title)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.title)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.info)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.info)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.bookquantity)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.bookquantity)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.price)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.price)
+    </dd>
+
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.author)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.author)
+    </dd>
+    <dd>
+        <img src="~/images/@Model.imgfile" height="150" />
+    </dd>
+</dl>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" name="bookId" value=@Model.Id />
+            <div class="form-group">
+                <label class="control-label fw-bold">Quantity: </label>
+                <br />
+                <input name="quantity" class="form-control" />
+            </div>
+            <br />
+            <div class="form-group">
+                <a class="btn btn-secondary" asp-controller="Books" asp-action="catalogue">Back to Book List</a>
+                <input type="submit" value="Buy " class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+

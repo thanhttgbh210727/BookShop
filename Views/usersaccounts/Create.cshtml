@@ -1,0 +1,83 @@
+﻿@model Shop.Models.usersaccounts
+
+@{
+    ViewData["Title"] = "Login";
+}
+@{
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<style>
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .form-container {
+        width: 50%;
+        max-width: 400px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background: #f9f9f9;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .btn-secondary {
+        margin-right: 10px;
+    }
+
+    .text-danger {
+        color: red;
+    }
+</style>
+
+<div class="container">
+    <div class="form-container">
+        <h1>Register</h1>
+        <hr />
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="name" class="control-label"></label>
+                <input asp-for="name" class="form-control" />
+                <span asp-validation-for="name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="pass" class="control-label"></label>
+                <input asp-for="pass" type="password" class="form-control" />
+                <span asp-validation-for="pass" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="email" class="control-label"></label>
+                <input asp-for="email" class="form-control" />
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+            <div class="form-group text-center">
+                <a class="btn btn-secondary" asp-action="Login">Back to Login</a>
+                <input type="submit" value="Sign Up" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

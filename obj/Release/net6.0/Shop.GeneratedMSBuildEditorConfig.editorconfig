@@ -1,0 +1,121 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Shop
+build_property.RootNamespace = Shop
+build_property.ProjectDir = C:\Users\Takao\Desktop\1670\Shop\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Takao\Desktop\1670\Shop
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/Books/catalogue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcY2F0YWxvZ3VlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/Books/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/Books/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/Books/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/Books/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/Books/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/orders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncb3JkZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/orders/customerOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncb3JkZXJzXGN1c3RvbWVyT3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/orders/customerreport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncb3JkZXJzXGN1c3RvbWVycmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/orders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncb3JkZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncb3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/orders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncb3JkZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncb3JkZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/orders/myorders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncb3JkZXJzXG15b3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/Shared/_LayoutLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/Shared/_Layout_user.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfdXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/usersaccounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlcnNhY2NvdW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/usersaccounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlcnNhY2NvdW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/usersaccounts/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlcnNhY2NvdW50c1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Takao/Desktop/1670/Shop/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bv1m2l6qkp

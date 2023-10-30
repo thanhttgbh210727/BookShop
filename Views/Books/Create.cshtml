@@ -1,0 +1,75 @@
+﻿@model Shop.Models.Book
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Add a new book</h1>
+
+<hr />
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="title" class="control-label fw-bold">Title</label>
+                <input asp-for="title" class="form-control" />
+                <span asp-validation-for="title" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="info" class="control-label fw-bold">Description</label>
+                <textarea asp-for="info" class="form-control"></textarea>
+                <span asp-validation-for="info" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="bookquantity" class="control-label fw-bold">Quantity</label>
+                <input asp-for="bookquantity" class="form-control" />
+                <span asp-validation-for="bookquantity" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="price" class="control-label fw-bold">Price</label>
+                <input asp-for="price" class="form-control" />
+                <span asp-validation-for="price" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label class="control-label fw-bold">Category</label>
+                <select name="cataid" class="form-control" asp-for="cataid">
+                    <option value="0">Please select</option>
+                    <option value="1">Category Test 1</option>
+                    <option value="2">Category Test 2</option>
+                    <option value="3">Category Test 3</option>
+                    <option value="3">Category Test 4</option>
+                </select>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="author" class="control-label fw-bold">Author</label>
+                <input asp-for="author" class="form-control" />
+                <span asp-validation-for="author" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label class="control-label fw-bold">Image</label>
+                <input type="file" class="form-control" name="file" />
+            </div>
+            <br />
+            <div class="form-group">
+                <a class="btn btn-secondary" asp-action="Index">Back to List</a>
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@* <div>
+    <a class="btn btn-secondary" asp-action="Index">Back to List</a>
+</div> *@
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
